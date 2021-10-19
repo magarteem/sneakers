@@ -1,0 +1,87 @@
+.cardItem {
+  width: 23%;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 20px 29px 20px 29px;
+  margin: 5px;
+  transition: all 0.3s;
+}
+.cardItem:hover {
+  transition: all 0.3s;
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0px 14px 30px rgba(104, 73, 73, 0.05);
+}
+._itemUp {
+  height: 50%;
+  display: flex;
+  position: relative;
+}
+._itemUp .sneakers {
+  margin: 0 auto;
+  width: 100%;
+}
+._itemUp .fav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+._itemUp .fav:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+._itemDown {
+  margin: 24px auto 0 auto;
+  height: 50%;
+  text-align: start;
+}
+._DownFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+._itemDown h3 {
+  font-size: 14px;
+}
+
+.chena {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+.chenaNumber {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.add {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+  background: #e7e5e5;
+}
+
+.add img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

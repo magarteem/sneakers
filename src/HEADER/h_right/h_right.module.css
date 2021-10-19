@@ -1,0 +1,29 @@
+.hed_right > * {
+  margin: 0 20px;
+  cursor: pointer;
+}
+.hed_right img {
+  height: 20px;
+}
+.hed_right img:nth-child(4) {
+  margin-right: 0;
+}
+._right_a {
+  position: relative;
+}
+._right_a div {
+  left: 12px;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17px;
+  width: 17px;
+  border-radius: 30px;
+  background-color: red;
+}
+._right_a span {
+  color: white;
+  font-size: 10px;
+}

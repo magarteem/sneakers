@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+.header > * {
+  margin: 33px 50px;
+}
+.hed_left {
+  cursor: pointer;
+}
+.hed_left img {
+  height: 41px;
+}

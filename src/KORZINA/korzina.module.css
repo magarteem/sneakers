@@ -1,0 +1,119 @@
+.bkg_korzina {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  opacity: 0.5;
+  z-index: 99;
+}
+.korzina {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 25%;
+  background: #ffffff;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+
+  padding: 10px 30px 30px 30px;
+}
+.kzHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.kzHead img {
+  cursor: pointer;
+}
+.korzina h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ?          MainKorzina  */
+.MainKorzina {
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  flex: 1;
+}
+/* ! kzCard  */
+.kzCard {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+}
+/* ! kzImg  */
+.kzImg {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-right: 20px;
+}
+.kzImg img {
+  height: 80%;
+}
+/* ! kzTitle  */
+.kzTitle p {
+  font-size: 14px;
+  line-height: 17px;
+}
+.kzTitle h3 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 12px;
+}
+/* ! kzDell  */
+.kzDell img {
+  cursor: pointer;
+  padding: 12px;
+}
+
+/*! korzinaDoun*/
+.korzinaDoun {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.korzinaDoun button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #9dd558;
+  color: white;
+  border-radius: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1.2em;
+  margin-top: 20px;
+}
+.korzinaDoun button img {
+  position: absolute;
+  right: 20px;
+}
+.korzinaPrise {
+  width: 100%;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.kzPriseUnder {
+  display: flex;
+  flex: 1;
+  height: 3px;
+  border-bottom: 1px dashed #dfdfdf;
+}

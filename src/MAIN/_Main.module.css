@@ -1,0 +1,24 @@
+.main {
+  flex: 1 0 auto;
+  text-align: center;
+  padding: 0 60px;
+}
+
+.upMainImg {
+  margin: 45px auto 0 auto;
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 2px rgb(142, 146, 146);
+}
+
+.upMainImg img {
+  width: 100%;
+}
+
+.sec_2 {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
